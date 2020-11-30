@@ -14,8 +14,9 @@ const styles = makeStyles({
     maxHeight: 300,
   },
   sidebar: {
-    height: '100vh',
-    width: '15vw',
+    // height: '100vh',
+    // width: '15vw',
+    width: '20%',
     fontFamily: 'Syne Mono',
     background: '#16697a',
     display: 'flex',
@@ -55,9 +56,7 @@ export const SideBar = () => {
         </div>
 
         <div className={classes.middleLinksSection}>
-          <SideBarLink link={'/'} linkTitle={'Products'}></SideBarLink>
-          <SideBarLink link={'/'} linkTitle={'Products'}></SideBarLink>
-          <SideBarLink link={'/'} linkTitle={'Products'}></SideBarLink>
+          <SideBarLink link={'/products'} linkTitle={'Rewards'}></SideBarLink>
         </div>
 
         <div className={classes.bottomLinksSection}>

@@ -5,10 +5,13 @@ export interface Link {
 
 export interface Reward
 {
-  rewardName: string,
-  imageUrl: string,
-  rewardPointCost: number
+  pointcost: number
+  rewardname: string,
+  rewardnumber: string,
+  rewardimagename?:string,
+  rewarddescription: string
 }
+
 
 export interface GetAllRewardsApiResponse
 {
